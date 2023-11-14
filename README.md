@@ -1,21 +1,17 @@
-# co13d4bf1b3953dea2d643b79
+# My Learning Journal - blog 
+Developing this website with blog feature from scratch with HTML and CSS. 
 
-Quick start:
+## Netlify Deployment
 
-```
-$ npm install
-$ npm start
-````
+This project uses [Continuous Deployment](https://en.wikipedia.org/wiki/Continuous_deployment). In order to deploy the site using Netlify follow these steps:
 
-Head over to https://vitejs.dev/ to learn more about using vite
-## About Scrimba
+* Create a new site by clicking the "Add new site" button.
+* Push the repo to GitHub by linking Netlify to GitHub. 
+* Select the "Authorize Application" button to allow Netlify to access your repository code. 
+* Choose the repo that you would like to deploy from the list.
+* Configure Your Settings and then click the "Deploy site" button to continue.
+* All done! You can review the newly published site via the URL. 
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+Note: when you  create a Merge Request, Netlify will create a preview URL so you can check the changes on the browser.
 
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
 
-Happy Coding!
