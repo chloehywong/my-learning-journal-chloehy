@@ -1,0 +1,320 @@
+ html,
+ body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Source Sans Pro;
+}
+
+.main {
+    background-color: #FAFAFA;
+}
+
+.logo {
+    width: 32px;
+    height: 32px;
+}
+
+.img-hero {
+    height: 488px;
+    width: 979px;
+    display: block;
+    margin: auto;
+    padding: 2rem 0;
+}
+
+.post-hero {
+    padding: 5rem 0; 
+}
+
+.post-link, .nav-link {
+    text-decoration:  none;
+    color: inherit;
+}
+
+.img-profile {
+    width: 182px;
+    height: 182px;
+    border-radius: 50%;
+}
+
+
+
+/* typography */ 
+
+li {
+    font-size: 0.9em;
+}
+
+.latest-post p {
+    color: #FFFFFF;
+}
+
+#white-text {
+    color: #FFFFFF;
+}
+
+.lastest-post-text .about-me {
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.about-me-intro h1 {
+    color: #151515;
+}
+
+.post h2 {
+    margin: 0;
+}
+
+.btn {
+    border: none;
+    background-color: transparent;
+    font-weight: 700;
+    font-size: 0.8em;
+    text-decoration: underline;
+    margin: 0 auto;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.btn:hover {
+    color: cornflowerblue;
+}
+
+footer {
+    background-color: #202020;
+    color: #ECECEC;
+    height: 100px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+.footer-brand {
+    font-weight: 700;
+}
+
+.footer-copyright {
+    font-size: 0.8em;
+    letter-spacing: 0.0125em;
+}
+
+
+
+/* layout */
+.hero {
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 2rem;
+    column-gap: 1rem;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 2rem;
+    column-gap: 1rem;
+}
+
+.latest-post {
+    height: 488px;
+    background-image: url(../images/blog-hero.png);
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.lastest-post-text {
+    width: 620px; 
+    margin: 0 0 2rem 4rem;
+}
+
+.post-hero-content {
+    width: 844px;
+}
+
+.post {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 85%;
+    margin:  0 auto; 
+    padding: 2rem 0;
+}
+
+.blog-1, .blog-2, .blog-3, .blog-4, .blog-5, .blog-6 {
+    width: 300px;
+    padding: 2rem; 
+}
+
+.center-text {
+    margin: 0 auto; 
+}
+
+.recent-title {
+    text-align: center; 
+    padding: 2rem 0;
+}
+
+.recent-post {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.about-me {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem 0;
+}
+
+.about-me-intro {
+    width: 764px;
+}
+
+
+
+@media (max-width: 480px) {
+    .logo {
+        width: 25px;
+        height: 25px;
+    }
+    
+    .latest-post {
+        height: 300px;
+        background-size: cover;
+    }
+    
+    .lastest-post-text {
+        width: 80%; 
+        margin: 0 0 .5rem 2rem;
+    }
+    
+    .nav-left {
+        column-gap: .25rem;
+    }
+    
+    .post {
+        grid-template-columns: 1fr;
+        width: 100%;
+        justify-items: center;
+    }
+   
+   .blog-1, .blog-2, .blog-3, .blog-4, .blog-5, .blog-6 {
+        width: 350px;
+        padding-bottom: .25rem;
+    }
+
+    .img-b1, .img-b2, .img-b3, .img-b4, .img-b5, .img-b6 {
+        width: 100%;
+    }
+    
+    .blog-4, .blog-5, .blog-6 {
+        display: none;
+    }
+    
+    .btn {
+        padding: 1.5rem 0;
+        font-size: 1em;
+    }
+    
+    footer {
+        line-height: 0.5;
+    }
+    
+    .post-hero {
+        padding: 1.5rem 0; 
+    }
+    
+    .img-hero {
+        height: 190px;
+        width: 380px;
+        display: block;
+        margin: auto;
+        padding: .5rem 0;
+    }
+    
+     .post-hero-content {
+        width: 380px;
+    }
+    
+    .recent-title {
+        margin: 0;
+        padding: 3rem 0 0 0;
+        font-size: 1.25em;
+    }
+    
+    .recent-post {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-bottom: 2rem;
+        justify-items: center;
+    }
+    
+    .about-me {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 2rem;
+        
+    } 
+    
+    .about-me-intro {
+        width: 370px;
+        margin: 0 auto;
+    } 
+    
+    .img-profile {
+        display: block;
+        
+    }
+    
+    .lastest-post-text h1{
+        color: #151515;
+    }  
+    
+    #white-text {
+        color: #FFFFFF;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
